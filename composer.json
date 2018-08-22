@@ -1,0 +1,24 @@
+{
+    "name": "ardentic/squeezer",
+    "description": "Squeezer is an extension to Laravel's templating engine Blade. It adds powerful features like @embed, @class and @style.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ardentic",
+            "email": "hello@ardentic.com",
+            "homepage": "http://ardentic.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Ardentic\\Squeezer\\": "src/"
+        }
+    }
+}
